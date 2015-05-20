@@ -7,5 +7,3 @@ lazy val root = (project in file(".")).enablePlugins(PlayJava)
 lazy val `plain-sbt-project` = project
 
 scalaVersion := "2.10.5"
-
-routesGenerator := InjectedRoutesGenerator
